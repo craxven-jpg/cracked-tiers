@@ -60,6 +60,7 @@ client.on("interactionCreate", async interaction => {
 
   if (interaction.commandName === "requesttier") {
     return interaction.reply("✅ Tier request submitted!");
+    
     if (interaction.commandName === "register") {
   return interaction.reply("✅ You have been registered!");
     }
